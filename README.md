@@ -6,6 +6,6 @@ Focus the empty workspace:
 
 ```bind = $mainMod, Slash, exec, $HOME/.config/hypr/scripts/monitor-new-workspace.sh```
 
-Move to the empty workspace:
+Move windows to the empty workspace:
 
 ```bind = $mainMod SHIFT, Slash, exec, $HOME/.config/hypr/scripts/monitor-new-workspace.sh --move```
