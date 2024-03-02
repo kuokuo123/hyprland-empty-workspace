@@ -3,6 +3,9 @@ A simple bash script for hyprland to focus on the first available empty workspac
 
 # example
 Focus the empty workspace:
+
 ```bind = $mainMod, Slash, exec, $HOME/.config/hypr/scripts/monitor-new-workspace.sh```
+
 Move to the empty workspace:
+
 ```bind = $mainMod SHIFT, Slash, exec, $HOME/.config/hypr/scripts/monitor-new-workspace.sh --move```
