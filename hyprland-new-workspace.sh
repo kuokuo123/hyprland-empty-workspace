@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 focusedwsisempty=$(hyprctl workspaces | grep -A 2 "monitor $(hyprctl monitors -j | jq -r 'map(select(.focused == true)) | .[] | .name')" | grep "windows: 0")
 
