@@ -1,5 +1,5 @@
 # hyprland-empty-workspace
-A rudimentary bash script for hyprland to open an empty workspace on the same monitor. This resolves the problem that, when calling for an empty workspace with multi-monitor setups, the focus changes to another screen that already has an empty workspace.
+A rudimentary bash script for hyprland to open an empty workspace on the same monitor. This resolves the problem that, when calling for an empty workspace with multi-monitor setups, the focus changes to another monitor that already has an empty workspace.
 
 # example
 Focus the empty workspace:
